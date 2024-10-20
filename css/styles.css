@@ -28,6 +28,7 @@ body {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 80vh;
@@ -36,4 +37,11 @@ main {
 .main-text {
     font-size: 120px;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sub-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
 }
